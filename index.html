@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yogesh Kumar | Sr. Technical Lead Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;YK /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Yogesh Kumar</h1>
+      <h2 class="hero-title">Sr. Technical Lead Engineer</h2>
+      <p class="hero-subtitle">
+        Specializing in <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-block">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename">yogesh.py</span>
+        </div>
+        <pre class="code-body"><code><span class="kw">class</span> <span class="cls">YogeshKumar</span>:
+  role = <span class="str">"Sr. Technical Lead"</span>
+  skills = [
+    <span class="str">"Python"</span>, <span class="str">"SQL"</span>, <span class="str">"Pandas"</span>,
+    <span class="str">"NumPy"</span>, <span class="str">"Azure"</span>, <span class="str">"AI/ML"</span>
+  ]
+
+  <span class="kw">def</span> <span class="fn">expertise</span>(self):
+    <span class="kw">return</span> <span class="str">"SAS → Python Migration"</span>
+
+  <span class="kw">def</span> <span class="fn">passion</span>(self):
+    <span class="kw">return</span> <span class="str">"Data Engineering"</span></code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-avatar">
+        <div class="avatar-ring">
+          <div class="avatar-inner">YK</div>
+        </div>
+        <div class="about-badges">
+          <span class="badge"><i class="fas fa-briefcase"></i> 9+ Years Exp</span>
+          <span class="badge"><i class="fas fa-code"></i> Python Expert</span>
+          <span class="badge"><i class="fas fa-cloud"></i> Azure Certified</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>
+          I'm a <strong>Sr. Technical Lead Engineer</strong> with deep expertise in
+          <strong>Python-based data engineering</strong> and large-scale system re-engineering.
+          I specialize in migrating legacy <strong>SAS-based analytical systems</strong> into
+          modern, scalable Python solutions.
+        </p>
+        <p>
+          My core strength lies in leveraging the Python data ecosystem —
+          <strong>Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, and Plotly</strong> —
+          combined with robust database technologies like <strong>SQL and Oracle</strong>
+          to deliver high-performance data pipelines and analytical platforms.
+        </p>
+        <p>
+          I also work with <strong>Azure cloud services</strong> and modern
+          <strong>AI/LLM tools</strong> to build intelligent, future-ready solutions.
+        </p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">9+</span><span class="stat-label">Years Experience</span></div>
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projects Delivered</span></div>
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Tech Migrations</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <h2 class="section-title">Tech <span>Skills</span></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-python"></i></div>
+        <h3>Python</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+        <p>Core language for data engineering, automation & ML pipelines</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>SQL / Oracle</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+        <p>Complex queries, stored procedures, data modeling & optimization</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-table"></i></div>
+        <h3>Pandas & NumPy</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="92%"></div></div>
+        <p>Large-scale data manipulation, transformation & analysis</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Data Visualization</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+        <p>Matplotlib, Seaborn, Plotly — interactive dashboards & reports</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <h3>Scikit-learn / ML</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+        <p>Machine learning models, feature engineering & model evaluation</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+        <h3>Azure</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+        <p>Azure Data Factory, Blob Storage, Azure SQL & cloud pipelines</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        <h3>Git</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+        <p>Version control, branching strategies & collaborative workflows</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+        <h3>AI / LLM Tools</h3>
+        <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+        <p>Prompt engineering, AI-assisted development & automation</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <i class="fas fa-exchange-alt project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/Yogesh1593" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>SAS to Python Migration Engine</h3>
+        <p>Re-engineered a large-scale SAS-based analytical platform into Python. Automated data transformation pipelines using Pandas & NumPy, reducing processing time by 60%.</p>
+        <div class="project-tags">
+          <span>Python</span><span>Pandas</span><span>NumPy</span><span>SQL</span><span>Oracle</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <i class="fas fa-chart-bar project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/Yogesh1593" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Interactive Analytics Dashboard</h3>
+        <p>Built an end-to-end analytics dashboard using Plotly & Seaborn with Oracle DB backend. Enabled real-time KPI tracking and drill-down reporting for business stakeholders.</p>
+        <div class="project-tags">
+          <span>Plotly</span><span>Seaborn</span><span>Matplotlib</span><span>Oracle</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <i class="fas fa-cloud-upload-alt project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/Yogesh1593" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Azure Data Pipeline</h3>
+        <p>Designed and deployed automated data ingestion pipelines on Azure Data Factory with Python scripts for transformation, loading data into Azure SQL from multiple sources.</p>
+        <div class="project-tags">
+          <span>Azure</span><span>Python</span><span>SQL</span><span>ADF</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <i class="fas fa-cogs project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/Yogesh1593" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>ML Model for Predictive Analysis</h3>
+        <p>Developed a Scikit-learn based predictive model for business forecasting. Included full pipeline: data cleaning, feature engineering, model training and evaluation.</p>
+        <div class="project-tags">
+          <span>Scikit-learn</span><span>Pandas</span><span>Python</span><span>ML</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Current</span>
+          <h3>Sr. Technical Lead Engineer</h3>
+          <h4>HCL Technologies</h4>
+          <ul>
+            <li>Leading re-engineering of SAS-based projects to Python</li>
+            <li>Architecting data pipelines using Pandas, NumPy & SQL</li>
+            <li>Driving Azure cloud adoption for data workloads</li>
+            <li>Mentoring junior developers & conducting code reviews</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Python</span><span>Azure</span><span>SQL</span><span>Pandas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Previous</span>
+          <h3>Technical Lead Engineer</h3>
+          <h4>HCL Technologies</h4>
+          <ul>
+            <li>Developed data transformation modules in Python</li>
+            <li>Worked on Oracle DB optimization & query tuning</li>
+            <li>Built visualization reports using Matplotlib & Seaborn</li>
+            <li>Collaborated with cross-functional teams on ML projects</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Python</span><span>Oracle</span><span>Scikit-learn</span><span>Git</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>I'm open to new opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:yogeshkumar1593@gmail.com">yogeshkumar1593@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(+91) 8700148175 &nbsp;|&nbsp; 8285850156</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="http://linkedin.com/in/yogesh-kumar-6ab737123" target="_blank">linkedin.com/in/yogesh-kumar-6ab737123</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/Yogesh1593" target="_blank">github.com/Yogesh1593</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>India</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject" required />
+        </div>
+        <div class="form-group">
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span>Yogesh Kumar</span> &nbsp;|&nbsp; &copy; 2025</p>
+    <div class="footer-links">
+      <a href="mailto:yogeshkumar1593@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Yogesh1593" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="http://linkedin.com/in/yogesh-kumar-6ab737123" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
