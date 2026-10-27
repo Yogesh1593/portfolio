@@ -633,6 +633,11 @@ footer span { color: var(--accent); }
 #chat-input-area button:hover { transform: scale(1.1); }
 
 @media (max-width: 480px) {
-  #chat-box { width: 290px; }
-  #chat-widget { bottom: 1rem; right: 1rem; }
+  #chat-box { width: calc(100vw - 2rem); }
+  #chat-widget { bottom: 1rem; right: 1rem; left: 1rem; align-items: flex-end; }
+  #chat-toggle { width: 52px; height: 52px; font-size: 1.2rem; }
+  #chat-messages { max-height: 260px; }
+  .msg p { font-size: 0.82rem; }
+  #chat-input { font-size: 0.82rem; }
+  .quick-btns button { font-size: 0.72rem; padding: 0.25rem 0.55rem; }
 }
