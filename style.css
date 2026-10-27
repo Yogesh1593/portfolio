@@ -454,6 +454,8 @@ footer span { color: var(--accent); }
   .hero-visual { width: 100%; }
   .about-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
+  .avatar-ring { width: 130px; height: 130px; }
+  .avatar-photo { width: 124px; height: 124px; }
 }
 
 @media (max-width: 768px) {
