@@ -330,6 +330,40 @@
     </div>
   </footer>
 
+  <!-- CHATBOT -->
+  <div id="chat-widget">
+    <div id="chat-toggle" onclick="toggleChat()">
+      <i class="fas fa-robot" id="chat-icon"></i>
+    </div>
+    <div id="chat-box">
+      <div id="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar"><i class="fas fa-robot"></i></div>
+          <div>
+            <p class="chat-name">Yogesh's Assistant</p>
+            <p class="chat-status"><span class="online-dot"></span> Online</p>
+          </div>
+        </div>
+        <button onclick="toggleChat()" class="chat-close"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="chat-messages">
+        <div class="msg bot">
+          <p>👋 Hi! I'm Yogesh's AI Assistant. Ask me anything about his skills, experience, or projects!</p>
+          <div class="quick-btns">
+            <button onclick="quickAsk('skills')">🛠 Skills</button>
+            <button onclick="quickAsk('experience')">💼 Experience</button>
+            <button onclick="quickAsk('projects')">🚀 Projects</button>
+            <button onclick="quickAsk('contact')">📞 Contact</button>
+          </div>
+        </div>
+      </div>
+      <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Ask me anything..." onkeydown="if(event.key==='Enter') sendMsg()" />
+        <button onclick="sendMsg()"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
